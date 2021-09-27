@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2? family = Architects + Daughter & display = swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+@import url('https://fonts.googleapis.com/css2? family = Permanent + Marker & display = swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Yanone Kaffeesatz', sans-serif; */
+    font-family: 'Architects Daughter', cursive;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    box-sizing: content-box;
+    margin: 0 auto;
+    /* background-color: rgba(34, 55, 148, 0.788); */
+    background-color: rgba(44, 206, 52, 0.788);
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 2rem;
+    }
+}
+
+h2 {
+    font-size: 50px;
+    text-align: center;
+    color: white;
+}
+
+@media screen and (max-width: 480px) {
+    h2 {
+        font-size: 2rem;
+    }
+}
+
+header {
+    box-sizing: content-box;
+    background: rgba(0, 0, 0, 0.9);
+    color: white;
+    top: 0;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    box-shadow: 5px 5px 5px #FC0;
+}
+
+@media screen and (max-width: 480px) {
+    header {}
+}
+
+#navbar {
+    box-sizing: content-box;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 10px;
+    color: #fff;
+}
+
+@media (max-width: 480px) {
+    #nav-bar {
+        width: 360px;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+.nav-left {
+    /* display: flex; */
+    justify-content: flex-start;
+    align-items: center;
+    flex-basis: 60%;
+}
+
+@media (max-width: 480px) {
+    .nav-left {
+        flex-basis: 50%;
+    }
+}
+
+.nav-left li {
+    font-size: 25px;
+}
+
+.nav-right {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-basis: 60%;
+}
+
+@media (max-width: 480px) {
+    .nav-rigth {
+        /* flex-basis: 60%; */
+        justify-content: space-between;
+        /* flex-direction: column; */
+    }
+}
+
+nav li {
+    float: left;
+    font-size: 16px;
+}
+
+nav li a {
+    justify-content: flex-end;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Permanent Marker', cursive;
+}
+
+nav li h1 {
+    display: flex;
+    justify-content: flex-start;
+    color: #fff;
+    align-items: center;
+}
+
+
+/*WELCOME SECTION*/
+
+.welcome-section {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 480px) {
+    .welcome-section {
+        width: 480px;
+    }
+}
+
+
+/**/
+
+
+/*PROYECTS*/
+
+
+/* #proyects {
+    text-align: center;
+    padding: 1rem 1rem;
+}
+
+@media screen and (max-width: 480px) {
+    #proyects {
+        width: 400px;
+    }
+} */
+
+
+/*******/
+
+.p-links {
+    text-decoration: none;
+}
+
+.projects-section {
+    text-align: center;
+    /* text-decoration: none; */
+    padding: 10rem 2rem;
+    background: var(--main-blue);
+}
+
+.grid {
+    display: grid;
+    width: 98%;
+    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+    grid-gap: 3rem;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 6rem;
+}
+
+@media screen and (max-width: 480px) {
+    .grid {
+        width: 480px;
+        grid-gap: 1.5rem;
+    }
+}
+
+.images {
+    height: calc(100% - 2rem);
+    width: 100%;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 480px) {
+    .images {
+        width: 480px;
+    }
+}
+
+.project-tile {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    padding: 0rem 0rem;
+}
+
+
+/*******/
+
+
+/* 
+#Tribute_Page {
+    color: white;
+    display: flex;
+    justify-content: column;
+    align-items: center;
+    flex-basis: 25%;
+}
+
+#Survey_Form {
+    color: white;
+    display: flex;
+    justify-content: column;
+    align-items: center;
+    flex-basis: 25%;
+}
+
+#Product_Landing_Page {
+    color: white;
+    display: flex;
+    justify-content: column;
+    align-items: center;
+    flex-basis: 25%;
+}
+
+#Technical_Documentation {
+    color: white;
+    display: flex;
+    justify-content: column;
+    align-items: center;
+    flex-basis: 25%;
+}
+
+.proyects_d {
+    flex-direction: row;
+}
+
+#proyects_inside {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    color: white;
+} */
+
+
+/**/
+
+
+/*CONTACT*/
+
+#profile-link {}
+
+#profiles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+@media screen and (max-width: 480px) {
+    #profile-link {
+        width: 480px;
+    }
+}
+
+#profileText {
+    /* display: flex; */
+}
+
+#profile-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+@media screen and (max-width: 480px) {
+    #profile-icons {
+        /* flex-direction: column;  */
+        /* flex-basis: 45%; */
+        width: 300px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
+#icons {
+    width: 60px;
+    height: 60px;
+}
+
+
+/**/
